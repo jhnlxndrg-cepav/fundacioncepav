@@ -7,16 +7,26 @@
     <meta desctiption="Document">
     <title>Fundacion CEPAV</title>
     <style>
-        .miprimerestiloparaelboton {  
+        .miprimerestiloparaelboton {
             background-color: green;
             border-color: hotpink;
             border-radius: 8px;
             border-top-right-radius: 0px;
-        } 
+        }
 
         .nombre {
             width: 100px;
             height: 100px;
+        }
+
+        .cuadroLuis {
+            width: 150px;
+            height: 150px;
+            background-color: darkcyan;
+            border: 6px dotted rgb(2, 2, 91);
+            border-radius: 5px;
+            margin: 20px 0 50px 100px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -39,7 +49,10 @@
     <hr>
     <h2>Button</h2>
     <p>
-        La etiqueta de HTML <button> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar. De forma predeterminada, los botones HTML se presentan con un estilo similar en todas las plataformas, estos estilos se pueden cambiar utilizando CSS.
+        La etiqueta de HTML <button> representa un elemento cliqueable de tipo botón que puede ser utilizado en
+            formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar. De forma
+            predeterminada, los botones HTML se presentan con un estilo similar en todas las plataformas, estos estilos
+            se pueden cambiar utilizando CSS.
     </p>
     <pre>
         <button class="miprimerestiloparaelboton" name="button">Click me</button>   
@@ -58,11 +71,10 @@
     -->
 
 
- 
-
-        <div class="nombre"></div>
 
 
+    <div class="nombre"></div>
+    <div class="cuadroLuis"></div>
 
 
 
@@ -90,7 +102,8 @@
     </pre>
     <hr>
     <h2>datalist</h2>
-    <p>El elemento HTML <datalist> contiene un conjunto de elementos <option> que representan los valores disponibles para otros controles.</p>
+    <p>El elemento HTML <datalist> contiene un conjunto de elementos <option> que representan los valores disponibles
+                para otros controles.</p>
     <pre>
         <ol>
             <li><label
@@ -111,8 +124,8 @@
     <details>
         <summary>¿Para qué sirve la etiqueta "details"?</summary>
         <p>
-            Es utilizado para crear un widget interactivo que el usuario puede abrir y cerrar. 
-            Es especialmente útil para mostrar información adicional que no necesita estar visible de inmediato, 
+            Es utilizado para crear un widget interactivo que el usuario puede abrir y cerrar.
+            Es especialmente útil para mostrar información adicional que no necesita estar visible de inmediato,
             mejorando la usabilidad y organización del contenido en una página web.
         </p>
     </details>
@@ -120,7 +133,7 @@
         <summary>¿Para qué sirve la etiqueta "summary"?</summary>
         <p>
             Define un encabezado visible para el contenido del elemento "details".
-            Este encabezado es lo que el usuario verá y en lo que hará clic para 
+            Este encabezado es lo que el usuario verá y en lo que hará clic para
             expandir o contraer el contenido. Debe ser el primer elemento dentro
             de un "details". Actúa como el título o resumen del contenido oculto.
         </p>
@@ -131,7 +144,9 @@
     <img alt="La imagen que seleccionaste no hace referencia a la raza pastor aleman">
 
     <h2>atributo size</h2>
-    <p>define el tamaño del <input> y el ancho <select> . For an input element, it defines the number of characters that the user agent allows the user to see when editing the value. For a select element, it defines the number of options that should be shown to the user. This must be a valid non-negative integer greater than zero.</p>
+    <p>define el tamaño del <input> y el ancho <select> . For an input element, it defines the number of characters that
+            the user agent allows the user to see when editing the value. For a select element, it defines the number of
+            options that should be shown to the user. This must be a valid non-negative integer greater than zero.</p>
     <pre>
         <ol>
             <label for="fruit">ingrese na fruta</label>
@@ -161,4 +176,5 @@
     <a href="https://youtube.com" title="Enlace a youtube">Enlace de youtube, fuera del sitio</a>
 
 </body>
+
 </html>
