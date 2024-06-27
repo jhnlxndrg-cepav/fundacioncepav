@@ -6,12 +6,44 @@ main {
     justify-content: center;
     align-items: center;}
 
-
 .TC {
     width: 600px; 
     height: 360px; 
-    background-image: url(https://www.huilatv.com/wp-content/uploads/2019/02/la-gaitana.jpg);
+    background-image: url("https://www.huilatv.com/wp-content/uploads/2019/02/la-gaitana.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
     }
+
+.TC_Chip{
+    width: 80px;
+    margin-top: 90px;
+}
+
+.TC_Numero_Cuenta{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 14px;
+    margin-bottom: 7px;
+}
+
+.TC_Fecha_Validacion_Fecha{}
+
+.TC_Fecha_Validacion{}
+
+.TC_Fecha_Fecha {}
+
+.TC_Titular{}
+
+.TC_Titular_Texto{}
+
+.TC_Logo{
+    background-color: aqua;
+    & > img {width: 32px ;}
+    & > span {}
+}
