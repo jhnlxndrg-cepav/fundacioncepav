@@ -32,18 +32,43 @@ main {
     margin-bottom: 7px;
 }
 
-.TC_Fecha_Validacion_Fecha{}
+.TC_Fecha_Validacion_Fecha{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-.TC_Fecha_Validacion{}
+.TC_Fecha_Validacion{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-.TC_Fecha_Fecha {}
+.TC_Fecha_ {
+    font-size: 20px;
+    font-weight: bold;
+}
 
-.TC_Titular{}
+.TC_Titular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.TC_Titular_Texto{}
+.TC_Titular_Texto{
+    font-size: 30px;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
 
 .TC_Logo{
-    background-color: aqua;
-    & > img {width: 32px ;}
-    & > span {}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & > img {width: 70px;}
+    & > span {font-size: 14px;
+        font-family: sans-serif;}
 }
