@@ -35,13 +35,13 @@ main {
 .TC_Fecha_Validacion_Fecha{
     font-size: 10px;
     display: flex;
-    flex-direction: column;
 }
 
 .TC_Fecha_Validacion{
     font-size: 10px;
     display: flex;
     flex-direction: column;
+    margin-right: 10px;
 }
 
 .TC_Fecha_ {
