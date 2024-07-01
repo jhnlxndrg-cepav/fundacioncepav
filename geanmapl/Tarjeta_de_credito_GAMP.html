@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="Es">
  <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elaboración de tarjeta de credito GAMP</title>
+    <link rel="stylesheet" href="./Tarjeta_de_credito_GAMP.css">/>
  </head>
- <body>
-    <title>Elaboración de tarjeta de credito GAMP</title>
-    <div> 
-        <div style=
-        "width: 600px; 
-        height: 360px; 
-        background-image: url(https://www.huilatv.com/wp-content/uploads/2019/02/la-gaitana.jpg);
-        background-size: cover;
-        border-radius: 32px; ">
-        <div>
-            <img src="./imagenes GAMP/chip.png"/>
-        </div>
-        <div>
-            <h2>1234 7894 4568 9654</h2>
-        </div>
-        <div>
-            <div><div>Good Thru</div><div>09/93</div></div>
-        </div>
-        <div>
-            <h2>MACI P.</h2>
-            <img src="./imagenes GAMP/MC.png">
-        </div>
-     </div>
-        
-    </div>
-    
+ 
+ <body style="margin: 0px;">
+    <main>  
+        <div class="TC">
+            <img class="TC_Chip" src="./imagenes GAMP/chip.png" alt="Chip"/>
+            <span class="TC_Numero_Cuenta">1234 7894 4568 9654</span>
+            <div class="TC_Fecha_Validacion_Fecha">
+                <div class="TC_Fecha_Validacion">
+                    <span>Good</span>
+                    <span>Thru</span>
+                </div>
+                    <span class="TC_Fecha_">09/93</span>
+            </div>   
+            <div class="TC_Titular">
+                <span class="TC_Titular_Texto">Maci P</span>
+                <div class="TC_Logo">
+                    <img src="./imagenes GAMP/MC.png" alt="">
+                    <span >MasterCard</span>
+                </div>
+            </div>
+        </div>             
+    </main>
  </body>
-
 </html>
