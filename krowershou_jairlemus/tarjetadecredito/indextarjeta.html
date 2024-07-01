@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de credito</title>
     <link rel="stylesheet" href="tarjeta_de_credito.css"/> 
-    <script src="./tarjeta_de_credito.js" defer></script>
+    <script src="arjeta_de_credito.js" defer></script>
+    
 </head>
 
 <body>
@@ -25,12 +26,41 @@
                 <span id="titularTarjeta" class="titular_tarjeta_texto">JAIR LEMUS ORTIZ</span>
                 <div class="contener_logo">
                     <img src="imagen/mc.png" >
-                    <span> mastercard</span>
+                    <span class="validadcionMcTitulo"> mastercard</span>
                 </div>
             </div>
         </div>
+        <div class="contenedorFormulario">
+            <form action="">
+                <div class="pago">
+                    <label for="pago"> Payment </label> 
+                    <input type="text" placeholder="Write your action">
+                </div>
+                <div class="numeroDeTarjeta">
+                    <label for="numeroDeTarjeta">Card Number</label>
+                    <input type="number">
+                </div>
+                <div class="contenedorFechaCcv">
+                    <div class="fechaDeVencimiento">
+                        <label for="fechaDeVencimiento">Expiration Name</label>
+                        <input type="date">
+                    </div>
+                    <div class="ccv">
+                        <label for="CCV">CVV </label>
+                        <input type="number">
+                    </div>
+                </div>
+                <div class="nombreTarjetaCon">
+                    <label for="nombreTarjetaCon">Cardholder Name</label>
+                    <input type="text">
+                </div>
+                <div class="boton">
+                    <button>Pay Now</button>
+                </div>
+            </form>
+
+        </div>
     </main>
 </body>
-
 
 </html>
