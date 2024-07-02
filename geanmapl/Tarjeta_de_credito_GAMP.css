@@ -32,7 +32,7 @@ main {
     margin-bottom: 7px;
 }
 
-.TC_Fecha_Validacion_Fecha{
+.TC_Fecha_Validacion{
     font-size: 10px;
     display: flex;
 }
@@ -44,7 +44,7 @@ main {
     margin-right: 10px;
 }
 
-.TC_Fecha_ {
+.TC_Fecha{
     font-size: 20px;
     font-weight: bold;
 }

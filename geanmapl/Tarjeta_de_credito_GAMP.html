@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elaboración de tarjeta de credito GAMP</title>
     <link rel="stylesheet" href="./Tarjeta_de_credito_GAMP.css">/>
+    <script src="./Tarjeta_de_credito_GAMP.js" defer></script>
  </head>
  
  <body style="margin: 0px;">
     <main>  
         <div class="TC">
             <img class="TC_Chip" src="./imagenes GAMP/chip.png" alt="Chip"/>
-            <span class="TC_Numero_Cuenta">1234 7894 4568 9654</span>
-            <div class="TC_Fecha_Validacion_Fecha">
+            <span id="numeroDeCuenta" class="TC_Numero_Cuenta">1234 7894 4568 9654</span>
+            <div class="TC_Fecha_Validacion">
                 <div class="TC_Fecha_Validacion">
                     <span>Good</span>
                     <span>Thru</span>
                 </div>
-                    <span class="TC_Fecha_">09/93</span>
+                    <span id="numeroDeFecha" class="TC_Fecha">09/93</span>
             </div>   
             <div class="TC_Titular">
-                <span class="TC_Titular_Texto">Maci P</span>
+                <span id="nombreTitular" class="TC_Titular_Texto">Maci P</span>
                 <div class="TC_Logo">
                     <img src="./imagenes GAMP/MC.png" alt="">
                     <span >MasterCard</span>
