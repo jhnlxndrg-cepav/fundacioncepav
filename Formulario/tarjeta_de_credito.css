@@ -93,3 +93,40 @@ main {
     font-size: 10px;
     font-family: sans-serif;
 }
+
+
+
+
+
+
+
+
+
+form{
+    background-color: rgb(229, 150, 23);
+    border-radius: 20px;
+    color: #1f1f1f;
+    font-size:  30px;
+    padding: 40px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+input{
+    border: 0;
+    outline: none; 
+    width: 280px;
+}
+
+.field{
+    border: solid 1px #f9f518;
+    padding: 10px;
+
+    
+}
+
+.field:focus{
+    border-color: #f90606;
+}
+
+
