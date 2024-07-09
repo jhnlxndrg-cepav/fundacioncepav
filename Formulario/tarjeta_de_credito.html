@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de credito</title>
+    <link rel="stylesheet" href="tarjeta_de_credito.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hob2kfz.css">  
+    <script src="./tarjeta_de_credito.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="tarjeta_de_credito">
+            <img class="tarjeta_de_credito_chip" src="./images/chip.png" alt="chip dorado" />
+            <span id="numeroDeCuenta" class="tarjeta_de_credito_numero_cuenta">1234 5678 9012 3456</span>
+            <div class="tarjeta_de_credito_validacion_container">
+                <div class="tarjeta_de_credito_validacion">
+                    <span>good</span>
+                    <span>thru</span>
+                </div>
+                <span class="tarjeta_de_credito_fecha_vencimiento">09/28</span>
+            </div>
+            <div class="tarjeta_de_credito_titular_container">
+                <span class="tarjeta_de_credito_titular" >JOHN ALEXANDER GIL B.</span>
+                <div class="tarjeta_de_credito_validacion_mc_container">
+                    <img class="tarjeta_de_credito_logo_mc" src="./images/mc.png" alt="master card" />
+                    <span class="tarjeta_de_credito_validacion_mc_titulo">mastercard</span>
+                </div>
+            </div>
+        </div>
+        <div class="Contenedor_Formilario">
+                <form action="">
+
+                    <label for="pago">Payment</label>
+                    <input type="text" class="field">
+                    <label for="numero_de_tarjeta">Card Number</label>
+                    <input type="number" class="field" id="numeroDeTarjetaGAMP" >
+                    <label for="fecha_de_expedicion">Expiration Date</label>
+                    <input type="text" class="field">
+                    <label for="codigo_de_seguridad">CVV</label>
+                    <input type="number" class="field">
+                    <label for="nombre_titular">Cardholder Name</label>
+                    <input type="text" class="field">
+                    <button>Pay Now</button>
+
+
+                </form>
+        </div>
+    </main>
+        
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.credito {
+    background-image:url(/tarjeta/Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height: 50vh;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 32px;
+    box-shadow: 0px 0px 38px 0px white;
+}
+.chip{
+    margin-top: 120px;
+    width: 100px;
+}
+.mc{
+    height: 60%;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-inline-start: 770px;
+    margin-top: -10px;
+}
+span{
+    color:white;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-family: candara;
+}
+.Numero{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: -6px;
+    margin-top: 16px;
+}
+.Fecha{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin-right: 700px;
+    margin-top: -40px;
+    margin-bottom: -15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Nombre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:32px;
+    padding: top 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: -30px;
+}
+.Validacion{
+    font-size: 16px;
+    display: flex;
+    margin-right: 16px;
+    flex-direction: column;
+}

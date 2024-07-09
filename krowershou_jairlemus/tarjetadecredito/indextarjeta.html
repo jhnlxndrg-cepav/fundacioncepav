@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de credito</title>
+    <link rel="stylesheet" href="tarjeta_de_credito.css"/> 
+    <script src="./tarjeta_de_credito.js" defer></script>
+    
+</head>
+
+<body>
+    <main>   
+        <div class="tarjetaPricipal">
+            <div class="tarjeta_de_credito">
+                <img class="chippla" src="imagen/chipplateado.png" alt="chipplateados"/>
+                <span id="numeroDeCuenta" class="numero_de_cuenta">  1234 5678 9101 1121 </span>
+                <div class="contenedor_fecha_validacion">
+                    <div class="validacion">
+                        <span>good</span>
+                        <span>thru</span>
+                    </div>
+                    <span id="fechaValidacion" class="fecha"> 05/30 </span>
+                </div>
+                <div class="titular_tarjeta_contenido">
+                    <span id="titularTarjeta" class="titular_tarjeta_texto">JAIR LEMUS ORTIZ</span>
+                    <div class="contener_logo">
+                        <img src="imagen/mc.png" >
+                        <span class="validadcionMcTitulo"> mastercard</span>
+                    </div>
+                </div>
+                
+                <div class="atras">
+                    <span class="bordeNegro" ></span>
+                    <span class="ccvIndicacion"> CCV</span>
+                    <span class="numeroCcv"> xxx</span>
+                    <span class="numeroInverso"> </span>
+                </div>
+            </div>
+        </div>
+
+            
+        
+        <div class="contenedorFormulario">
+            <form action="">
+                <div class="pago">
+                    <label for="pago"> Payment </label> 
+                    <input type="text" placeholder="Enter your payment details" >
+                </div>
+                <div class="numeroDeTarjeta" id="numeroDeTarjeta">
+                    <label for="numeroDeTarjeta">Card Number</label>
+                    <input type="number" placeholder="0000 0000 0000 0000" >
+                </div>
+                <div class="contenedorFechaCcv" >
+                    <div class="fechaDeVencimiento" id="fechaVencimiento">
+                        <label  for="fechaDeVencimiento" >Expiration Name </label>
+                        <input type="text" >
+                    </div>
+                    <div class="ccv" id="ccv">
+                        <label for="CCV">CVV </label>
+                        <input type="number" placeholder="123">
+                    </div>
+                </div>
+                <div class="nombreTarjetaCon" id="dueñoTarjeta">
+                    <label for="nombreTarjetaCon">Cardholder Name</label>
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="button">
+                    <button>Pay Now</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
